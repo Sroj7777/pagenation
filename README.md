@@ -1,6 +1,6 @@
-# pagenation
+# Pagenation Helper Class
 
-
+/*
 The class is designed to take in an array of values and an integer indicating how many items will be allowed per each page. The types of values contained within the collection/array are not relevant.
 
 The following are some examples of how this class is used:
@@ -18,7 +18,7 @@ helper.pageIndex(5); //should == 1 (zero based index)
 helper.pageIndex(2); //should == 0
 helper.pageIndex(20); //should == -1
 helper.pageIndex(-10); //should == -1
-
+*/
 
 # Junit test cases:
 
