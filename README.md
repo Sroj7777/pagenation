@@ -1,7 +1,6 @@
 # pagenation
 
 
-/*
 The class is designed to take in an array of values and an integer indicating how many items will be allowed per each page. The types of values contained within the collection/array are not relevant.
 
 The following are some examples of how this class is used:
@@ -20,9 +19,8 @@ helper.pageIndex(2); //should == 0
 helper.pageIndex(20); //should == -1
 helper.pageIndex(-10); //should == -1
 
-*/
 
-//Junit test cases:
+# Junit test cases:
 
 var helper = new PaginationHelper(['a','b','c','d','e','f'], 4);
 
@@ -47,7 +45,7 @@ assertEquals(“Page Index (20) should be equal to -1 ”, helper.pageIndex(20),
 assertEquals(“Page Index (-10) should be equal to -1 ”, helper.pageIndex(-10), -1);
 
 
-#Java Code for the given problem
+# Java Code for the given problem
 
 public class PaginationHelper<I> {
 
